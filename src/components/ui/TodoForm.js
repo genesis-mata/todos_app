@@ -68,9 +68,6 @@ class TodoForm extends Component {
             <button type="submit" className="btn btn-success">Submit</button>
           </div>
         </div>
-        <div>
-          <p>New Change</p>
-        </div>
       </form>
     </div>);
   }
