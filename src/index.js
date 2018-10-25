@@ -13,7 +13,10 @@ function render() {
 	ReactDOM.render(<App store={store} />, document.getElementById('root'));
 }
 
-window.store = this.store;
+if(window.store)
+{
+	window.store = this.store;
+}
 
 store.subscribe(render);
 
